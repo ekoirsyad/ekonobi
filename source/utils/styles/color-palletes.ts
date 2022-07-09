@@ -9,6 +9,7 @@ const colorPalette = {
   tertiary: '#05BE90',
   border: '#ddd',
   textPrimary: '#EAEAEA',
+  textPrimaryTransparent: '#EAEAEA80',
   textSecondary: '#9D9FA0',
   transparent: '#000000BF',
   black: '#000000',
