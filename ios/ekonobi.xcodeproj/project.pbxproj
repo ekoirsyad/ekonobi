@@ -14,6 +14,16 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ekonobi-ekonobiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ekonobi-ekonobiTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		710841CE747F40F991CFB84E /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 729562451EFD46B59CDF220B /* CircularStd-Black.otf */; };
+		4B8EF347332D4ADDBE26D46B /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBB518E827114EC7A9963161 /* CircularStd-BlackItalic.otf */; };
+		03CE24DB5EB84FF388159126 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 185FE8FE8BC842D8825C32D7 /* CircularStd-Bold.otf */; };
+		21C6F8A35814452AB769BE06 /* CircularStd-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 217056B003844DDD97D94A94 /* CircularStd-BoldItalic.otf */; };
+		EE26A297341F4C4F9FCD982F /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 204BBF575FD342569CC40AC9 /* CircularStd-Book.otf */; };
+		7C9CF26EF5B6468CB5C380FD /* CircularStd-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 836A8430DC7345B6A54D5CD1 /* CircularStd-BookItalic.otf */; };
+		6FBFD4D884A240429A735145 /* CircularStd-Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64DB69597A4744A99DD0EA95 /* CircularStd-Light Italic.otf */; };
+		E42E947908D34C82868A71A1 /* CircularStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C58054513A6453783D42318 /* CircularStd-Light.otf */; };
+		165D7054B811499590881509 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F26B5FF82CE245DC91DB00CE /* CircularStd-Medium.otf */; };
+		21373EB01DDF480197462B91 /* CircularStd-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C49E1185AD5443F9BAE693D5 /* CircularStd-MediumItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ekonobi/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ekonobi-ekonobiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ekonobi-ekonobiTests.release.xcconfig"; path = "Target Support Files/Pods-ekonobi-ekonobiTests/Pods-ekonobi-ekonobiTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		729562451EFD46B59CDF220B /* CircularStd-Black.otf */ = {isa = PBXFileReference; name = "CircularStd-Black.otf"; path = "../source/assets/fonts/CircularStd-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBB518E827114EC7A9963161 /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-BlackItalic.otf"; path = "../source/assets/fonts/CircularStd-BlackItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		185FE8FE8BC842D8825C32D7 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; name = "CircularStd-Bold.otf"; path = "../source/assets/fonts/CircularStd-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		217056B003844DDD97D94A94 /* CircularStd-BoldItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-BoldItalic.otf"; path = "../source/assets/fonts/CircularStd-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		204BBF575FD342569CC40AC9 /* CircularStd-Book.otf */ = {isa = PBXFileReference; name = "CircularStd-Book.otf"; path = "../source/assets/fonts/CircularStd-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		836A8430DC7345B6A54D5CD1 /* CircularStd-BookItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-BookItalic.otf"; path = "../source/assets/fonts/CircularStd-BookItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64DB69597A4744A99DD0EA95 /* CircularStd-Light Italic.otf */ = {isa = PBXFileReference; name = "CircularStd-Light Italic.otf"; path = "../source/assets/fonts/CircularStd-Light Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C58054513A6453783D42318 /* CircularStd-Light.otf */ = {isa = PBXFileReference; name = "CircularStd-Light.otf"; path = "../source/assets/fonts/CircularStd-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F26B5FF82CE245DC91DB00CE /* CircularStd-Medium.otf */ = {isa = PBXFileReference; name = "CircularStd-Medium.otf"; path = "../source/assets/fonts/CircularStd-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C49E1185AD5443F9BAE693D5 /* CircularStd-MediumItalic.otf */ = {isa = PBXFileReference; name = "CircularStd-MediumItalic.otf"; path = "../source/assets/fonts/CircularStd-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F352EDEA42694848969CF9F8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +168,24 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		F352EDEA42694848969CF9F8 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				729562451EFD46B59CDF220B /* CircularStd-Black.otf */,
+				FBB518E827114EC7A9963161 /* CircularStd-BlackItalic.otf */,
+				185FE8FE8BC842D8825C32D7 /* CircularStd-Bold.otf */,
+				217056B003844DDD97D94A94 /* CircularStd-BoldItalic.otf */,
+				204BBF575FD342569CC40AC9 /* CircularStd-Book.otf */,
+				836A8430DC7345B6A54D5CD1 /* CircularStd-BookItalic.otf */,
+				64DB69597A4744A99DD0EA95 /* CircularStd-Light Italic.otf */,
+				4C58054513A6453783D42318 /* CircularStd-Light.otf */,
+				F26B5FF82CE245DC91DB00CE /* CircularStd-Medium.otf */,
+				C49E1185AD5443F9BAE693D5 /* CircularStd-MediumItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +283,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				710841CE747F40F991CFB84E /* CircularStd-Black.otf in Resources */,
+				4B8EF347332D4ADDBE26D46B /* CircularStd-BlackItalic.otf in Resources */,
+				03CE24DB5EB84FF388159126 /* CircularStd-Bold.otf in Resources */,
+				21C6F8A35814452AB769BE06 /* CircularStd-BoldItalic.otf in Resources */,
+				EE26A297341F4C4F9FCD982F /* CircularStd-Book.otf in Resources */,
+				7C9CF26EF5B6468CB5C380FD /* CircularStd-BookItalic.otf in Resources */,
+				6FBFD4D884A240429A735145 /* CircularStd-Light Italic.otf in Resources */,
+				E42E947908D34C82868A71A1 /* CircularStd-Light.otf in Resources */,
+				165D7054B811499590881509 /* CircularStd-Medium.otf in Resources */,
+				21373EB01DDF480197462B91 /* CircularStd-MediumItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

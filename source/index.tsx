@@ -9,16 +9,26 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import LoginScreen from '~screens/login';
 import DashboardScreen from '~screens/dashboard';
 import ListScreen from '~screens/list';
+import {useStorage} from '~utils/hooks/useStorage';
+import TabBar from '~components/bottom-tab-bar';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<BottomTabParamList>();
 
+/**
+ * BottomTabBar is a custom component that is used to render the bottom tab bar
+ * @returns {JSX.Element}
+ */
 const BottomTabBar = () => {
   return (
     <>
-      <Tab.Navigator>
-        <Tab.Screen name={'Dashboard'} component={DashboardScreen} />
+      <Tab.Navigator
+        tabBar={props => <TabBar {...props} />}
+        screenOptions={{
+          headerShown: false,
+        }}>
         <Tab.Screen name={'List'} component={ListScreen} />
+        <Tab.Screen name={'Dashboard'} component={DashboardScreen} />
       </Tab.Navigator>
     </>
   );
@@ -28,6 +38,8 @@ const BottomTabBar = () => {
  * NavigationContainer wrapped with SafeAreaView
  */
 const Main = () => {
+  const {value} = useStorage('token', '');
+
   return (
     <SafeAreaView style={style.container}>
       <StatusBar barStyle={'light-content'} backgroundColor={colors.primary} />
@@ -36,8 +48,15 @@ const Main = () => {
           screenOptions={{
             headerShown: false,
           }}>
-          <Stack.Screen name={'Login'} component={LoginScreen} />
-          <Stack.Screen name={'Main'} component={BottomTabBar} />
+          {value ? (
+            <>
+              <Stack.Screen name={'Main'} component={BottomTabBar} />
+            </>
+          ) : (
+            <>
+              <Stack.Screen name={'Login'} component={LoginScreen} />
+            </>
+          )}
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaView>
