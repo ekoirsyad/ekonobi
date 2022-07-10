@@ -12,8 +12,12 @@ interface ILoginService {
   password: string;
 }
 
+/**
+ *
+ * @param {email, password} ILoginService user credentials
+ * @returns User Token
+ */
 const loginService = async ({email, password}: ILoginService) => {
-  console.log(email, password);
   try {
     const params = qs.stringify({email, password});
 
@@ -26,13 +30,12 @@ const loginService = async ({email, password}: ILoginService) => {
     };
 
     const {data} = await axios.post<LoginResponse>(url, params, config);
-
-    return data;
+    return data.token;
   } catch (error) {
     if (axios.isAxiosError(error)) {
-      return error.message;
+      throw Error(error.message);
     } else {
-      return 'An unexpected error occurred';
+      throw Error('An unexpected error occurred');
     }
   }
 };

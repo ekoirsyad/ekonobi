@@ -13,6 +13,10 @@ const style = StyleSheet.create({
     alignSelf: 'center',
     marginBottom: 40,
   },
+  errorMessage: {
+    alignSelf: 'center',
+    padding: 10,
+  },
 });
 
 export default style;

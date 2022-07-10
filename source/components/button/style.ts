@@ -15,6 +15,9 @@ const styles = StyleSheet.create({
     ...regular,
     color: colorPalette.textPrimary,
   },
+  icon: {
+    marginRight: 10,
+  },
 });
 
 export default styles;

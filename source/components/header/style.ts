@@ -4,34 +4,27 @@ import {regular} from '~utils/styles/typography';
 
 const styles = StyleSheet.create({
   container: {
-    width: '100%',
-    marginBottom: 15,
-  },
-  inputContainer: {
-    height: 45,
-    width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
+    paddingTop: 20,
+  },
+  icon: {
+    paddingHorizontal: 15,
+  },
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: colorPalette.transparentWhite,
     borderRadius: 8,
-    paddingLeft: 10,
-    paddingRight: 10,
-    textAlign: 'center',
-    backgroundColor: colorPalette.primaryDarker,
-    marginTop: 10,
+    flex: 1,
+    height: 40,
+    marginEnd: 20,
+    paddingHorizontal: 10,
   },
   input: {
     ...regular,
     flex: 1,
-    textAlign: 'center',
     fontSize: 14,
-  },
-  icon: {
-    position: 'absolute',
-    end: 10,
-  },
-  errorMessage: {
-    fontSize: 14,
-    marginTop: 10,
   },
 });
 

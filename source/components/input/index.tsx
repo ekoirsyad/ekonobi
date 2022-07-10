@@ -3,7 +3,7 @@ import {Text, TextInput, TextInputProps, View, ViewStyle} from 'react-native';
 import colorPalette from '~utils/styles/color-palletes';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {italic, regular} from '~utils/styles/typography';
-import styles from './style';
+import styles from '~components/input/style';
 
 interface IInput {
   label: string;
@@ -58,8 +58,11 @@ const Input = ({
           />
         ) : null}
       </View>
-      {/* {errMessage && <Text>{errMessage}</Text>} */}
-      <Text style={[italic, styles.errorMessage]}>{errMessage}</Text>
+      {errMessage ? (
+        <Text style={[italic, styles.errorMessage]}>{errMessage}</Text>
+      ) : (
+        <></>
+      )}
     </View>
   );
 };
